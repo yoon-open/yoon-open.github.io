@@ -121,7 +121,6 @@ footer a { color: var(--text); text-decoration: none; }
   header a, main, footer { width: min(calc(100% - 32px), 820px); }
   main { padding: 44px 0 72px; }
   .intro { margin-bottom: 46px; font-size: 1.04rem; }
-  .collection { gap: 14px; }
-  .collection .open { font-size: 0; }
-  .collection .open::after { content: "→"; font-size: .9rem; }
+  .collection { align-items: flex-start; gap: 14px; }
+  .collection .open { padding-top: 4px; }
 }
